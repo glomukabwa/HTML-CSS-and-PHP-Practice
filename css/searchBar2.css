@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Playpen;
+    src: url(../fonts/PlaypenSans-VariableFont_wght.ttf);
+}
+
+:root{
+    --maincolor:#202A44;
+    --sidecolor:#CBCBCB;
+    --linkhoover: #C11C84;
+    font-size: 62.5%;
+    font-family: Playpen;
+}
+
+a{
+    cursor:pointer;
+}
+
+a:hover{
+    color: var(--linkhoover);
+}
+
+body{
+    font-size: 1.6rem;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer{
+    background-color: var(--sidecolor);
+}
+
+header{
+    height:100px;
+}
+
+header ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+main{
+   flex-grow: 1; 
+   background-color: var(--maincolor);
+   padding: 20px 80px;
+   color:white;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+}
+
+input{
+    border: solid 2px var(--sidecolor);
+    border-radius: 5px;
+    padding:5px 15px;
+}
+
+button{
+    background-color: var(--sidecolor);
+    color:black;
+    padding:5px 15px;
+}
+
+button:hover{
+    background-color:antiquewhite;
+    color:var(--linkhoover);
+}
+
+table{
+    margin: 20px 0;
+    color: var(--sidecolor);
+}
+
+th,td{
+    border: solid 2px var(--sidecolor);
+    padding: 5px 15px;
+}
+
+th{
+    color:white;
+}
+
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:150px;
+    padding: 0 80px;
+}
+
+footer ul:nth-child(1){
+    border-left: solid 4px var(--maincolor);
+    padding-left: 10px;
+}
+
+footer ul:nth-child(2){
+    text-align: right;
+}

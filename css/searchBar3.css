@@ -1,0 +1,133 @@
+@font-face {
+    font-family:Epunda ;
+    src: url(fonts/EpundaSlab-VariableFont_wght.ttf);
+}
+
+:root{
+    font-size:62.5%;
+    --color1:#341C02;
+    --color2:#3C4C24;
+    --color3:#FD3DB5;
+    --color4:#FAF0DC;
+}
+
+a,button{
+    cursor:pointer;
+}
+
+a:hover{
+    color:var(--color3);
+}
+
+button:hover{
+    color:var(--color3);
+    background-color: rgb(2, 65, 2);
+}
+
+body{
+    font-size:1.6rem;
+    font-family: Epunda;
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+    background: var(--color4);
+}
+
+header{
+    background-color: var(--color2);
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color4);
+    padding: 20px 60px;
+}
+
+main{
+    flex-grow: 1;
+    background-color: var(--color4);
+    color: var(--color1);
+    padding: 20px 60px;
+}
+
+main p{
+    font-weight: bold;
+}
+
+.form1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input{
+    border: solid 2px var(--color1);
+    border-radius:5px;
+    padding:5px 15px;
+    text-align: center;
+}
+
+button{
+    background-color: var(--color1);
+    color: var(--color4);
+    padding:5px 15px;
+    border-radius: 5px;
+}
+
+table{
+    margin:10px 0;
+}
+
+th,td{
+    border: solid 2px var(--color1);
+    text-align: center;
+    padding:5px 5px;
+    width:200px;
+    height: 50px;
+}
+
+.viewImages{
+    background-color: var(--color1);
+    color: var(--color4);
+    padding:5px 15px;
+    border-radius: 5px;
+}
+
+.viewImages:hover{
+    color:var(--color3);
+    background-color: rgb(2, 65, 2);
+}
+
+footer{
+    background-color: var(--color2);
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height:120px;
+    color: var(--color4);
+    padding: 20px 60px;
+}
+
+footer ul:nth-child(1){
+    border-left: solid 4px var(--color4);
+    padding-left:10px;
+}
+
+.HouseRow{
+    display:flex;
+    flex-wrap:wrap;
+    padding: 0 60px;
+}
+
+.p{
+    font-size: 20px;
+    padding: 20px 60px;
+    color:var(--color1);
+}
+
+.HouseImages{
+    height:200px;
+    width:300px;
+    padding: 10px 20px;
+}

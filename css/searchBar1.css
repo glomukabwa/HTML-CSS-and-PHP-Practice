@@ -1,0 +1,144 @@
+@font-face{
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf)
+}
+
+
+:root{
+    font-size: 62.5%
+}
+
+a{
+    cursor:pointer;
+}
+
+a:hover{
+    color:rgb(187, 76, 94);
+}
+
+body{
+    font-size:1.6rem;
+    background-color: #222222;
+    font-family: Comfortaa;
+    /*To ensure footer stays at the bottom*/
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+    /*End*/
+    color:white;
+}
+
+header{
+    background-color: white;
+    width:100%;
+    height:fit-content;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 60px;
+}
+
+header img{
+    border-radius: 50%;
+    width:40px;
+}
+
+header ul{
+    display:flex;
+}
+
+header ul li{
+    padding-right: 20px;
+}
+
+
+form{
+    padding: 30px 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+form input{
+    border: solid 2px white;
+    border-radius: 5px;
+    text-align:center;
+    width:250px;
+    padding: 10px 0;
+}
+
+form button{
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    text-align:center;
+    width:200px;
+    padding: 10px 0;
+}
+
+form button:hover{
+    color:rgb(187, 76, 94);
+    background-color: whitesmoke;
+}
+
+.available{
+    padding-left: 60px;
+}
+
+.house-row{
+    display:flex;
+    justify-content: space-between;
+    color:black;
+    padding: 20px 60px;
+}
+
+.house-details{
+    height:300px;
+    width:250px;
+    background-color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+.house-details img{
+    width:250px;
+    height:200px;
+    border-radius: 10px;
+}
+
+.writings{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.title{
+    font-size: 1.8rem;
+    font-weight:bold;
+}
+
+.available2{
+    padding-left: 60px;
+    padding-top:20px;
+}
+
+footer{
+    background-color: white;
+    width:100%;
+    height:150px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+footer ul li{
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+
